@@ -20,7 +20,7 @@ updateTree <- function(session, treeId, data=NULL) {
 
 #' @importFrom jsonlite toJSON
 Rlist2json <- function(nestedList) {
-  as.character(jsonify::to_json(get_flatList(nestedList)))
+  as.character(jsonify::to_json(get_flatList(nestedList), unbox = TRUE))
 }
 
 #' @importFrom stringr str_match
