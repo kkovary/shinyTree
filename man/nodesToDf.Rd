@@ -18,5 +18,5 @@ nested list with one level less that is stacked to a data.frame
 Convert the nodes of a tree into a data.frame
 }
 \author{
-Jasper Schelfhout
+Jasper Schelfhout \email{jasper.schelfhout@openanalytics.eu}
 }

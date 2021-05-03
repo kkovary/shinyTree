@@ -17,6 +17,13 @@ data.frame
 \description{
 Convert tree into data.frame
 }
+\examples{
+\dontrun{
+df <- data.frame(Titanic)
+tree <- dfToTree(df, c("Sex", "Class", "Survived"))
+newDf <- treeToDf(tree, c("Sex", "Class", "Survived"))
+}
+}
 \author{
 Jasper Schelfhout
 }

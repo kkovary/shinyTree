@@ -18,5 +18,5 @@ data.frame
 Combine named list into single data.frame with extra column
 }
 \author{
-Jasper Schelfhout
+Jasper Schelfhout \email{jasper.schelfhout@openanalytics.eu}
 }
